@@ -1,0 +1,24 @@
+# Arquivos gerados pelo Maven
+target/
+*.jar
+*.jar.original
+.mvn/
+mvnw
+mvnw.cmd
+
+# Arquivos de IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings
+.springBeans
+.sts4-cache
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+.DS_Store
+HELP.md
