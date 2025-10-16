@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500")
 @RequestMapping("/api/respostas")
 @PreAuthorize("isAuthenticated()")
 @Tag(name = "Respostas", description = "Gerencia as respostas dos chamados")
