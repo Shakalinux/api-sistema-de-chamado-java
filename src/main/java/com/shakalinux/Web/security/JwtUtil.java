@@ -10,7 +10,7 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    private final String SECRETKEY = "MinhaChaveSecretaSuperSeguraParaJWTComPeloMenos256Bits";
+    private final String SECRETKEY = "khK2sAYPK7p_vM8ZejDOaX_CGqu6mO82DyMetM8UlZzeMrh_WSwuiwDwKQBqbp96F9DrbmSejfIEr2jv4m7M3g";
     private final long EXPIRATION = 86400000;
 
     private Key getKey() {
